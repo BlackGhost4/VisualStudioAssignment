@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!-- width="560" height="315" -->
+<div class="text-center">
+    <h1 class="display-4">Welcome to Mexico !!!!</h1>
+    <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/_gWGwPp09CA"
+            title="10 Best Places to Visit in Mexico - Travel Video" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe><br />
+    <button onclick="changeWidth()" class="btn-primary">Click to enlarger o or shroten a video</button>
+    <br /><br />
+    <p>Learn more about <a href="https://www.visitmexico.com/en/">Mexico</a>.</p>
+</div>
